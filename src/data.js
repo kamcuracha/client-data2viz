@@ -1,0 +1,8887 @@
+const data = [{
+  "date": "05-03-2024",
+  "source": "forsa",
+  "values": {
+    "afd": 17,
+    "bsw": 4,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "02-03-2024",
+  "source": "insa",
+  "values": {
+    "afd": 19,
+    "bsw": 7,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "27-02-2024",
+  "source": "forsa",
+  "values": {
+    "afd": 17,
+    "bsw": 4,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 15,
+    "linke": 3,
+    "spd": 14
+  }
+}, {
+  "date": "24-02-2024",
+  "source": "insa",
+  "values": {
+    "afd": 19,
+    "bsw": 8,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "23-02-2024",
+  "source": "fgw",
+  "values": {
+    "afd": 19,
+    "bsw": 5,
+    "cdu_csu": 30,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "20-02-2024",
+  "source": "forsa",
+  "values": {
+    "afd": 17,
+    "bsw": 4,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "17-02-2024",
+  "source": "insa",
+  "values": {
+    "afd": 19,
+    "bsw": 8,
+    "cdu_csu": 31,
+    "fdp": 4,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 14
+  }
+}, {
+  "date": "13-02-2024",
+  "source": "forsa",
+  "values": {
+    "afd": 18,
+    "bsw": 5,
+    "cdu_csu": 31,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "10-02-2024",
+  "source": "insa",
+  "values": {
+    "afd": 20,
+    "bsw": 7,
+    "cdu_csu": 30,
+    "fdp": 4,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "06-02-2024",
+  "source": "forsa",
+  "values": {
+    "afd": 18,
+    "bsw": 5,
+    "cdu_csu": 31,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "03-02-2024",
+  "source": "insa",
+  "values": {
+    "afd": 20,
+    "bsw": 7,
+    "cdu_csu": 30,
+    "fdp": 4,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "02-02-2024",
+  "source": "fgw",
+  "values": {
+    "afd": 19,
+    "bsw": 6,
+    "cdu_csu": 31,
+    "fdp": 4,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "01-02-2024",
+  "source": "infra",
+  "values": {
+    "afd": 19,
+    "bsw": 5,
+    "cdu_csu": 30,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 3,
+    "spd": 16
+  }
+}, {
+  "date": "27-01-2024",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "bsw": 7,
+    "cdu_csu": 31,
+    "fdp": 4,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "23-01-2024",
+  "source": "forsa",
+  "values": {
+    "afd": 20,
+    "bsw": 3,
+    "cdu_csu": 31,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "20-01-2024",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "bsw": 7,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 13
+  }
+}, {
+  "date": "20-01-2024",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "bsw": 7,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 13
+  }
+}, {
+  "date": "16-01-2024",
+  "source": "forsa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 31,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 13
+  }
+}, {
+  "date": "13-01-2024",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 12,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "12-01-2024",
+  "source": "fgw",
+  "values": {
+    "afd": 22,
+    "bsw": 4,
+    "cdu_csu": 31,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 13
+  }
+}, {
+  "date": "09-01-2024",
+  "source": "forsa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 30,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "09-01-2024",
+  "source": "insa",
+  "values": {
+    "afd": 23,
+    "cdu_csu": 32,
+    "fdp": 5,
+    "gruene": 12,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "06-01-2024",
+  "source": "insa",
+  "values": {
+    "afd": 23,
+    "cdu_csu": 31,
+    "fdp": 6,
+    "gruene": 12,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "04-01-2024",
+  "source": "infra",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "31-12-2023",
+  "source": "insa",
+  "values": {
+    "afd": 23,
+    "cdu_csu": 32,
+    "fdp": 5,
+    "gruene": 12,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "28-12-2023",
+  "source": "insa",
+  "values": {
+    "afd": 23,
+    "cdu_csu": 32,
+    "fdp": 5,
+    "gruene": 12,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "21-12-2023",
+  "source": "infra",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 32,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 3,
+    "spd": 14
+  }
+}, {
+  "date": "19-12-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 23,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 14
+  }
+}, {
+  "date": "18-12-2023",
+  "source": "insa",
+  "values": {
+    "afd": 23,
+    "cdu_csu": 31.5,
+    "fdp": 5,
+    "gruene": 12.5,
+    "linke": 4,
+    "spd": 15.5
+  }
+}, {
+  "date": "15-12-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 32,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "12-12-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "09-12-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 30,
+    "fdp": 6,
+    "gruene": 12,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "07-12-2023",
+  "source": "infra",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 32,
+    "fdp": 4,
+    "gruene": 15,
+    "linke": 3,
+    "spd": 14
+  }
+}, {
+  "date": "05-12-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "02-12-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 30,
+    "fdp": 6,
+    "gruene": 13,
+    "linke": 3,
+    "spd": 16
+  }
+}, {
+  "date": "28-11-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "25-11-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 30,
+    "fdp": 6,
+    "gruene": 12,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "24-11-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "21-11-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "18-11-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 30,
+    "fdp": 6,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "14-11-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "11-11-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "11-11-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "10-11-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "09-11-2023",
+  "source": "infra",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "07-11-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 29,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "05-11-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 5,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "05-11-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 30,
+    "fdp": 6,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "02-11-2023",
+  "source": "infra",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 30,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 16
+  }
+}, {
+  "date": "31-10-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 29,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 3,
+    "spd": 15
+  }
+}, {
+  "date": "28-10-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 31,
+    "fdp": 6,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "28-10-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 28,
+    "fdp": 5,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 16
+  }
+}, {
+  "date": "24-10-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "21-10-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 29,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 5,
+    "spd": 16
+  }
+}, {
+  "date": "21-10-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "20-10-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 15
+  }
+}, {
+  "date": "17-10-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 32,
+    "fdp": 4,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 14
+  }
+}, {
+  "date": "14-10-2023",
+  "source": "insa",
+  "values": {
+    "afd": 23,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 13,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "14-10-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 16
+  }
+}, {
+  "date": "12-10-2023",
+  "source": "infra",
+  "values": {
+    "afd": 23,
+    "cdu_csu": 29,
+    "fdp": 5,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 15
+  }
+}, {
+  "date": "10-10-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "07-10-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "07-10-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 16
+  }
+}, {
+  "date": "02-10-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 28,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "30-09-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "30-09-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 16
+  }
+}, {
+  "date": "28-09-2023",
+  "source": "infra",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "26-09-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "23-09-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "23-09-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "19-09-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "16-09-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "16-09-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 16
+  }
+}, {
+  "date": "15-09-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "14-09-2023",
+  "source": "infra",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "12-09-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "09-09-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 13,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "09-09-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "05-09-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "02-09-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 13,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "02-09-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 25,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "31-08-2023",
+  "source": "infra",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 16
+  }
+}, {
+  "date": "29-08-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "26-08-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "26-08-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "22-08-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "19-08-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "19-08-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "18-08-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "17-08-2023",
+  "source": "infra",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "15-08-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 25,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "12-08-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 13,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "12-08-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 18,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 19
+  }
+}, {
+  "date": "08-08-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 25,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "05-08-2023",
+  "source": "insa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "05-08-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "03-08-2023",
+  "source": "infra",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "01-08-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 21,
+    "cdu_csu": 25,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "29-07-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "29-07-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "25-07-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "22-07-2023",
+  "source": "insa",
+  "values": {
+    "afd": 22,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "22-07-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "20-07-2023",
+  "source": "infra",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "18-07-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "15-07-2023",
+  "source": "insa",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "15-07-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "14-07-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "11-07-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "08-07-2023",
+  "source": "insa",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 13,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "08-07-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "06-07-2023",
+  "source": "infra",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "04-07-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "01-07-2023",
+  "source": "insa",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "01-07-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "30-06-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "27-06-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "24-06-2023",
+  "source": "insa",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "24-06-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 20,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "22-06-2023",
+  "source": "infra",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "20-06-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "17-06-2023",
+  "source": "insa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "17-06-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "16-06-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 18,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "13-06-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "10-06-2023",
+  "source": "insa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 13,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "10-06-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 18,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "06-06-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 17,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "03-06-2023",
+  "source": "insa",
+  "values": {
+    "afd": 19,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 13,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "03-06-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 17,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "01-06-2023",
+  "source": "infra",
+  "values": {
+    "afd": 18,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "30-05-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 17,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "27-05-2023",
+  "source": "insa",
+  "values": {
+    "afd": 18,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 13,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "27-05-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 29,
+    "fdp": 8,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "26-05-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 17,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "23-05-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "20-05-2023",
+  "source": "insa",
+  "values": {
+    "afd": 17,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "20-05-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "16-05-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 30,
+    "fdp": 8,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "13-05-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "13-05-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 29,
+    "fdp": 8,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "11-05-2023",
+  "source": "infra",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "09-05-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "06-05-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 14,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "06-05-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 31,
+    "fdp": 8,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "05-05-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 30,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "04-05-2023",
+  "source": "infra",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "02-05-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "29-04-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "29-04-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "25-04-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "23-04-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 15,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "22-04-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "21-04-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 31,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "18-04-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "15-04-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "15-04-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "13-04-2023",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "11-04-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "09-04-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "08-04-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "06-04-2023",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "04-04-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "01-04-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 21
+  }
+}, {
+  "date": "01-04-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "31-03-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "28-03-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "25-03-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "21-03-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "19-03-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "18-03-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "17-03-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 29,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "16-03-2023",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "14-03-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "11-03-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "11-03-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 21
+  }
+}, {
+  "date": "07-03-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "05-03-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 20
+  }
+}, {
+  "date": "05-03-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "03-03-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "02-03-2023",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 31,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "28-02-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 31,
+    "fdp": 5,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "25-02-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "25-02-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "21-02-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 31,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "18-02-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "18-02-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "17-02-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "16-02-2023",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "14-02-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "11-02-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 25,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "11-02-2023",
+  "source": "insa",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "07-02-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "04-02-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 25,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "04-02-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "02-02-2023",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "31-01-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "28-01-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "28-01-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "27-01-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 6,
+    "spd": 21
+  }
+}, {
+  "date": "24-01-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "24-01-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "21-01-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "21-01-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "19-01-2023",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "17-01-2023",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "15-01-2023",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "14-01-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "13-01-2023",
+  "source": "fgw",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 21,
+    "linke": 6,
+    "spd": 20
+  }
+}, {
+  "date": "08-01-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "05-01-2023",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "03-01-2023",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 7.5,
+    "gruene": 17.5,
+    "linke": 4.5,
+    "spd": 20
+  }
+}, {
+  "date": "31-12-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "25-12-2022",
+  "source": "insa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "24-12-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "20-12-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "18-12-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "17-12-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "16-12-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "13-12-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "11-12-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "10-12-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "09-12-2022",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "06-12-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "03-12-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "03-12-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "01-12-2022",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 30,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "29-11-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 29,
+    "fdp": 5,
+    "gruene": 22,
+    "linke": 6,
+    "spd": 19
+  }
+}, {
+  "date": "27-11-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "26-11-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "25-11-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 5,
+    "gruene": 22,
+    "linke": 6,
+    "spd": 19
+  }
+}, {
+  "date": "22-11-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "20-11-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "19-11-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "15-11-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "13-11-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 21
+  }
+}, {
+  "date": "12-11-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "11-11-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 5,
+    "gruene": 22,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "10-11-2022",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "08-11-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "07-11-2022",
+  "source": "insa",
+  "values": {
+    "afd": 14.5,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 17.5,
+    "linke": 4.5,
+    "spd": 21
+  }
+}, {
+  "date": "06-11-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "05-11-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "03-11-2022",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "02-11-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "01-11-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 4.5,
+    "spd": 20.5
+  }
+}, {
+  "date": "30-10-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "29-10-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 25,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "25-10-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "23-10-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 6,
+    "spd": 16
+  }
+}, {
+  "date": "22-10-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 16,
+    "cdu_csu": 23,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 22
+  }
+}, {
+  "date": "21-10-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "18-10-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "17-10-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15.5,
+    "cdu_csu": 27.5,
+    "fdp": 7.5,
+    "gruene": 18.5,
+    "linke": 4.5,
+    "spd": 19.5
+  }
+}, {
+  "date": "16-10-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "15-10-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 25,
+    "fdp": 6,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "13-10-2022",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "11-10-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "08-10-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "08-10-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 20,
+    "linke": 6,
+    "spd": 18
+  }
+}, {
+  "date": "06-10-2022",
+  "source": "infra",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "04-10-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "01-10-2022",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 19
+  }
+}, {
+  "date": "01-10-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "30-09-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 22,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "27-09-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "24-09-2022",
+  "source": "insa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "24-09-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "20-09-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "17-09-2022",
+  "source": "insa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 6,
+    "spd": 19
+  }
+}, {
+  "date": "17-09-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "15-09-2022",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "13-09-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "10-09-2022",
+  "source": "insa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "10-09-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 25,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "09-09-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 23,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "06-09-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "03-09-2022",
+  "source": "insa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "03-09-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 24,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "01-09-2022",
+  "source": "infra",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "30-08-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 25,
+    "linke": 5,
+    "spd": 17
+  }
+}, {
+  "date": "27-08-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "27-08-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 23,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "23-08-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 25,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "20-08-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "20-08-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "18-08-2022",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "16-08-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 25,
+    "linke": 4,
+    "spd": 18
+  }
+}, {
+  "date": "13-08-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "13-08-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 22,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "12-08-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 26,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "09-08-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "06-08-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "06-08-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 25,
+    "fdp": 6,
+    "gruene": 23,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "04-08-2022",
+  "source": "infra",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 17
+  }
+}, {
+  "date": "02-08-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "30-07-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "30-07-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "26-07-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 24,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "23-07-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 5,
+    "spd": 18
+  }
+}, {
+  "date": "23-07-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 25,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "21-07-2022",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 22,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "19-07-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 24,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "16-07-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "16-07-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 25,
+    "fdp": 8,
+    "gruene": 24,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "15-07-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 25,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "12-07-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 5,
+    "spd": 19
+  }
+}, {
+  "date": "10-07-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "09-07-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 25,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 5,
+    "spd": 20
+  }
+}, {
+  "date": "07-07-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "05-07-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 24,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "03-07-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "03-07-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 25,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "01-07-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 25,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "28-06-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 24,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "25-06-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "25-06-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 24,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "23-06-2022",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "21-06-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "19-06-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "18-06-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "17-06-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 25,
+    "linke": 5,
+    "spd": 22
+  }
+}, {
+  "date": "14-06-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "11-06-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 4,
+    "spd": 21
+  }
+}, {
+  "date": "11-06-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 22
+  }
+}, {
+  "date": "07-06-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "04-06-2022",
+  "source": "insa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 22
+  }
+}, {
+  "date": "04-06-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 20
+  }
+}, {
+  "date": "02-06-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 4,
+    "spd": 21
+  }
+}, {
+  "date": "31-05-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 29,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 4,
+    "spd": 19
+  }
+}, {
+  "date": "28-05-2022",
+  "source": "insa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 23
+  }
+}, {
+  "date": "28-05-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 21
+  }
+}, {
+  "date": "24-05-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 23,
+    "linke": 4,
+    "spd": 21
+  }
+}, {
+  "date": "21-05-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 28,
+    "fdp": 10,
+    "gruene": 19,
+    "linke": 3,
+    "spd": 21
+  }
+}, {
+  "date": "21-05-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 5,
+    "spd": 22
+  }
+}, {
+  "date": "20-05-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 4,
+    "spd": 22
+  }
+}, {
+  "date": "17-05-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 4,
+    "spd": 22
+  }
+}, {
+  "date": "14-05-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 22
+  }
+}, {
+  "date": "14-05-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 10,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 22
+  }
+}, {
+  "date": "12-05-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 22
+  }
+}, {
+  "date": "10-05-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 4,
+    "spd": 23
+  }
+}, {
+  "date": "07-05-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 23
+  }
+}, {
+  "date": "07-05-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 11,
+    "gruene": 18,
+    "linke": 3,
+    "spd": 23
+  }
+}, {
+  "date": "03-05-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 23
+  }
+}, {
+  "date": "01-05-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 10,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 23
+  }
+}, {
+  "date": "30-04-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 25,
+    "fdp": 9,
+    "gruene": 20,
+    "linke": 5,
+    "spd": 23
+  }
+}, {
+  "date": "29-04-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 23,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 4,
+    "spd": 25
+  }
+}, {
+  "date": "28-04-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 3,
+    "spd": 24
+  }
+}, {
+  "date": "26-04-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 25,
+    "fdp": 9,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 24
+  }
+}, {
+  "date": "24-04-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 25,
+    "fdp": 9,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 25
+  }
+}, {
+  "date": "23-04-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 24
+  }
+}, {
+  "date": "19-04-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 25,
+    "fdp": 8,
+    "gruene": 20,
+    "linke": 4,
+    "spd": 25
+  }
+}, {
+  "date": "17-04-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 25,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 26
+  }
+}, {
+  "date": "16-04-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 10,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "14-04-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 18,
+    "linke": 4,
+    "spd": 24
+  }
+}, {
+  "date": "12-04-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 24,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 27
+  }
+}, {
+  "date": "09-04-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 25,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 27
+  }
+}, {
+  "date": "09-04-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 25
+  }
+}, {
+  "date": "08-04-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 27
+  }
+}, {
+  "date": "06-04-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 25,
+    "fdp": 9,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 24
+  }
+}, {
+  "date": "05-04-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 24,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 4,
+    "spd": 27
+  }
+}, {
+  "date": "02-04-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "02-04-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 26
+  }
+}, {
+  "date": "29-03-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 24
+  }
+}, {
+  "date": "27-03-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "26-03-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 25,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "22-03-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 10,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 23
+  }
+}, {
+  "date": "19-03-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "19-03-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "17-03-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 4,
+    "spd": 25
+  }
+}, {
+  "date": "15-03-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "12-03-2022",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 24,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "12-03-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "11-03-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 24,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "08-03-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 7,
+    "cdu_csu": 25,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "05-03-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 25,
+    "fdp": 11,
+    "gruene": 15,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "05-03-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "03-03-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "02-03-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "01-03-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 7,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "27-02-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 11,
+    "gruene": 15,
+    "linke": 7,
+    "spd": 23
+  }
+}, {
+  "date": "26-02-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 25,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 7,
+    "spd": 26
+  }
+}, {
+  "date": "22-02-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 23
+  }
+}, {
+  "date": "19-02-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27,
+    "fdp": 11,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 22
+  }
+}, {
+  "date": "19-02-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 24,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 24
+  }
+}, {
+  "date": "17-02-2022",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 24
+  }
+}, {
+  "date": "15-02-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 23
+  }
+}, {
+  "date": "12-02-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 23
+  }
+}, {
+  "date": "12-02-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 22
+  }
+}, {
+  "date": "11-02-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 25,
+    "fdp": 9,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "08-02-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 22
+  }
+}, {
+  "date": "05-02-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 22
+  }
+}, {
+  "date": "05-02-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 24
+  }
+}, {
+  "date": "03-02-2022",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 22
+  }
+}, {
+  "date": "01-02-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 23
+  }
+}, {
+  "date": "29-01-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "29-01-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 24,
+    "fdp": 10,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 24
+  }
+}, {
+  "date": "28-01-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 23,
+    "fdp": 10,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 24
+  }
+}, {
+  "date": "25-01-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 24,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "22-01-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 23,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "22-01-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 22,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "20-01-2022",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 24,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "18-01-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 25,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "15-01-2022",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 23,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "15-01-2022",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 23,
+    "fdp": 10,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "14-01-2022",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 27
+  }
+}, {
+  "date": "11-01-2022",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 25,
+    "fdp": 10,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "08-01-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "06-01-2022",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 23,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "01-01-2022",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "27-12-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "26-12-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 23,
+    "fdp": 11,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "21-12-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 24,
+    "fdp": 10,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "19-12-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 14,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "18-12-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "14-12-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 23,
+    "fdp": 11,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "12-12-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 13,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "11-12-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 11,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "10-12-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 21,
+    "fdp": 12,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "09-12-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "07-12-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "04-12-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 21,
+    "fdp": 13,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "04-12-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 20,
+    "fdp": 12,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 27
+  }
+}, {
+  "date": "02-12-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "30-11-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 12,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 24
+  }
+}, {
+  "date": "27-11-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 21,
+    "fdp": 13,
+    "gruene": 15,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "27-11-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 24
+  }
+}, {
+  "date": "26-11-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 19,
+    "fdp": 13,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "23-11-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 12,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 24
+  }
+}, {
+  "date": "20-11-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 21,
+    "fdp": 13,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "20-11-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 12,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 24
+  }
+}, {
+  "date": "16-11-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 12,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 24
+  }
+}, {
+  "date": "13-11-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 21,
+    "fdp": 14,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "13-11-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 13,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "12-11-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 20,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "09-11-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 22,
+    "fdp": 14,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "06-11-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 14,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "06-11-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "04-11-2021",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 21,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "02-11-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 21,
+    "fdp": 15,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "30-10-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "29-10-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "29-10-2021",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 26
+  }
+}, {
+  "date": "29-10-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 20,
+    "fdp": 14,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 27
+  }
+}, {
+  "date": "26-10-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 20,
+    "fdp": 16,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "23-10-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 20,
+    "fdp": 14,
+    "gruene": 17,
+    "linke": 4,
+    "spd": 27
+  }
+}, {
+  "date": "23-10-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 25
+  }
+}, {
+  "date": "19-10-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 20,
+    "fdp": 15,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "16-10-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 19,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 4,
+    "spd": 28
+  }
+}, {
+  "date": "15-10-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 19,
+    "fdp": 13,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "14-10-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 19,
+    "fdp": 14,
+    "gruene": 17,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "12-10-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 20,
+    "fdp": 14,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "09-10-2021",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 20,
+    "fdp": 14,
+    "gruene": 15,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "05-10-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 20,
+    "fdp": 14,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 26
+  }
+}, {
+  "date": "02-10-2021",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 21,
+    "fdp": 12,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "01-10-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 20,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 5,
+    "spd": 28
+  }
+}, {
+  "date": "24-09-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 12,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "23-09-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 7,
+    "spd": 25
+  }
+}, {
+  "date": "23-09-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 23,
+    "fdp": 11,
+    "gruene": 16.5,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "22-09-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 7,
+    "spd": 25
+  }
+}, {
+  "date": "21-09-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "18-09-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 12,
+    "gruene": 15,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "17-09-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "16-09-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 15,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "16-09-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 20,
+    "fdp": 11,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "14-09-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 11,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "11-09-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 20,
+    "fdp": 13,
+    "gruene": 15,
+    "linke": 6,
+    "spd": 26
+  }
+}, {
+  "date": "10-09-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "09-09-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 21,
+    "fdp": 12,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "07-09-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 19,
+    "fdp": 13,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "05-09-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 20,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 7,
+    "spd": 25
+  }
+}, {
+  "date": "03-09-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 11,
+    "gruene": 17,
+    "linke": 7,
+    "spd": 25
+  }
+}, {
+  "date": "02-09-2021",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 20,
+    "fdp": 13,
+    "gruene": 16,
+    "linke": 6,
+    "spd": 25
+  }
+}, {
+  "date": "01-09-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 11,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 25
+  }
+}, {
+  "date": "31-08-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 12,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 23
+  }
+}, {
+  "date": "28-08-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 13,
+    "gruene": 17,
+    "linke": 6,
+    "spd": 24
+  }
+}, {
+  "date": "27-08-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 10,
+    "gruene": 20,
+    "linke": 6,
+    "spd": 22
+  }
+}, {
+  "date": "26-08-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 23
+  }
+}, {
+  "date": "24-08-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 22,
+    "fdp": 12,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 23
+  }
+}, {
+  "date": "21-08-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 22,
+    "fdp": 13,
+    "gruene": 17,
+    "linke": 7,
+    "spd": 22
+  }
+}, {
+  "date": "19-08-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 12,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 21
+  }
+}, {
+  "date": "19-08-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 23,
+    "fdp": 13,
+    "gruene": 17,
+    "linke": 7,
+    "spd": 21
+  }
+}, {
+  "date": "18-08-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 19,
+    "linke": 6,
+    "spd": 21
+  }
+}, {
+  "date": "15-08-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 25,
+    "fdp": 12,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 20
+  }
+}, {
+  "date": "13-08-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 11,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 19
+  }
+}, {
+  "date": "12-08-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 12,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 19
+  }
+}, {
+  "date": "11-08-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 19
+  }
+}, {
+  "date": "09-08-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11.5,
+    "cdu_csu": 25.5,
+    "fdp": 12.5,
+    "gruene": 17.5,
+    "linke": 6.5,
+    "spd": 17.5
+  }
+}, {
+  "date": "07-08-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 12,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 18
+  }
+}, {
+  "date": "05-08-2021",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 12,
+    "gruene": 19,
+    "linke": 6,
+    "spd": 18
+  }
+}, {
+  "date": "04-08-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 13,
+    "gruene": 22,
+    "linke": 6,
+    "spd": 18
+  }
+}, {
+  "date": "03-08-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 13,
+    "gruene": 20,
+    "linke": 6,
+    "spd": 16
+  }
+}, {
+  "date": "31-07-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 13,
+    "gruene": 18,
+    "linke": 6,
+    "spd": 17
+  }
+}, {
+  "date": "30-07-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 10,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "30-07-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 13,
+    "gruene": 19,
+    "linke": 6,
+    "spd": 17
+  }
+}, {
+  "date": "28-07-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 13,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "24-07-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 13,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "23-07-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 12,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "23-07-2021",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 29,
+    "fdp": 12,
+    "gruene": 19,
+    "linke": 6,
+    "spd": 16
+  }
+}, {
+  "date": "21-07-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 28,
+    "fdp": 12,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "17-07-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 30,
+    "fdp": 11,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "16-07-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 11,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "16-07-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 30,
+    "fdp": 10,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "14-07-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 30,
+    "fdp": 12,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "10-07-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 12,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "10-07-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 29,
+    "fdp": 11,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "07-07-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 30,
+    "fdp": 11,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "04-07-2021",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 28,
+    "fdp": 12,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "02-07-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 10,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "01-07-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 11,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "30-06-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 30,
+    "fdp": 12,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "27-06-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 12,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "25-06-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 28,
+    "fdp": 11,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "25-06-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 29,
+    "fdp": 10,
+    "gruene": 22,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "24-06-2021",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 11,
+    "gruene": 21,
+    "linke": 6,
+    "spd": 15
+  }
+}, {
+  "date": "23-06-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 29,
+    "fdp": 13,
+    "gruene": 21,
+    "linke": 6,
+    "spd": 15
+  }
+}, {
+  "date": "20-06-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 13,
+    "gruene": 20,
+    "linke": 6,
+    "spd": 16
+  }
+}, {
+  "date": "18-06-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 12,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "16-06-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 28,
+    "fdp": 14,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "12-06-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 13,
+    "gruene": 20,
+    "linke": 6,
+    "spd": 16
+  }
+}, {
+  "date": "11-06-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 13,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "10-06-2021",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 12,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "10-06-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 10,
+    "gruene": 22,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "09-06-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 27,
+    "fdp": 14,
+    "gruene": 22,
+    "linke": 6,
+    "spd": 14
+  }
+}, {
+  "date": "06-06-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 26,
+    "fdp": 12,
+    "gruene": 21,
+    "linke": 6,
+    "spd": 17
+  }
+}, {
+  "date": "05-06-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 13,
+    "gruene": 22,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "02-06-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 25,
+    "fdp": 14,
+    "gruene": 24,
+    "linke": 6,
+    "spd": 14
+  }
+}, {
+  "date": "29-05-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 25,
+    "fdp": 13,
+    "gruene": 22,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "28-05-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 25,
+    "fdp": 13,
+    "gruene": 23,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "26-05-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 24,
+    "fdp": 13,
+    "gruene": 25,
+    "linke": 6,
+    "spd": 14
+  }
+}, {
+  "date": "23-05-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 24,
+    "fdp": 13,
+    "gruene": 23,
+    "linke": 6,
+    "spd": 17
+  }
+}, {
+  "date": "21-05-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 11,
+    "gruene": 24,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "21-05-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 11,
+    "gruene": 25,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "19-05-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 24,
+    "fdp": 11,
+    "gruene": 26,
+    "linke": 6,
+    "spd": 15
+  }
+}, {
+  "date": "16-05-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 25,
+    "fdp": 11,
+    "gruene": 24,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "15-05-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 11,
+    "gruene": 25,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "14-05-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 12,
+    "gruene": 25,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "12-05-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 24,
+    "fdp": 11,
+    "gruene": 27,
+    "linke": 6,
+    "spd": 15
+  }
+}, {
+  "date": "08-05-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 26,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "07-05-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 25,
+    "fdp": 10,
+    "gruene": 26,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "06-05-2021",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 23,
+    "fdp": 11,
+    "gruene": 26,
+    "linke": 6,
+    "spd": 14
+  }
+}, {
+  "date": "05-05-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 28,
+    "linke": 6,
+    "spd": 14
+  }
+}, {
+  "date": "03-05-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 24,
+    "fdp": 12,
+    "gruene": 24,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "01-05-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 24,
+    "fdp": 11,
+    "gruene": 27,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "28-04-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 22,
+    "fdp": 12,
+    "gruene": 28,
+    "linke": 7,
+    "spd": 13
+  }
+}, {
+  "date": "26-04-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 23,
+    "fdp": 12,
+    "gruene": 23,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "24-04-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 28,
+    "linke": 7,
+    "spd": 13
+  }
+}, {
+  "date": "24-04-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 28,
+    "linke": 7,
+    "spd": 13
+  }
+}, {
+  "date": "23-04-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 24,
+    "fdp": 12,
+    "gruene": 23,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "20-04-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 21,
+    "fdp": 12,
+    "gruene": 28,
+    "linke": 7,
+    "spd": 13
+  }
+}, {
+  "date": "20-04-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 11,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "18-04-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 29,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "16-04-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 31,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "16-04-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 10,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 18
+  }
+}, {
+  "date": "15-04-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 11,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "14-04-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 23,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "12-04-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27.5,
+    "fdp": 10,
+    "gruene": 20.5,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "11-04-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 9,
+    "spd": 15
+  }
+}, {
+  "date": "07-04-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 10,
+    "gruene": 23,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "05-04-2021",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27,
+    "fdp": 10,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "04-04-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 23,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "01-04-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "31-03-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 10,
+    "gruene": 23,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "29-03-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 10.5,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 18
+  }
+}, {
+  "date": "27-03-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 25,
+    "fdp": 10,
+    "gruene": 23,
+    "linke": 9,
+    "spd": 17
+  }
+}, {
+  "date": "26-03-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 23,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "24-03-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 26,
+    "fdp": 10,
+    "gruene": 22,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "22-03-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 10.5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 18
+  }
+}, {
+  "date": "20-03-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 10,
+    "gruene": 22,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "20-03-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 10,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 18
+  }
+}, {
+  "date": "18-03-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 29,
+    "fdp": 9,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "17-03-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 29,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "15-03-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11.5,
+    "cdu_csu": 29.5,
+    "fdp": 10.5,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "14-03-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 31,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "10-03-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 33,
+    "fdp": 8,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "08-03-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11.5,
+    "cdu_csu": 30,
+    "fdp": 10.5,
+    "gruene": 17,
+    "linke": 9,
+    "spd": 17
+  }
+}, {
+  "date": "07-03-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 32,
+    "fdp": 9,
+    "gruene": 19,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "04-03-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 33,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "02-03-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 34,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "02-03-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 32.5,
+    "fdp": 10,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "27-02-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 34,
+    "fdp": 8,
+    "gruene": 18,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "26-02-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "23-02-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 35,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "23-02-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 33.5,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "20-02-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 34,
+    "fdp": 8,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "18-02-2021",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 33,
+    "fdp": 8,
+    "gruene": 20,
+    "linke": 6,
+    "spd": 16
+  }
+}, {
+  "date": "16-02-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "15-02-2021",
+  "source": "insa",
+  "values": {
+    "afd": 10.5,
+    "cdu_csu": 33.5,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 9,
+    "spd": 17
+  }
+}, {
+  "date": "14-02-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 8,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "09-02-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 37,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "08-02-2021",
+  "source": "insa",
+  "values": {
+    "afd": 10.5,
+    "cdu_csu": 34.5,
+    "fdp": 9,
+    "gruene": 17.5,
+    "linke": 8.5,
+    "spd": 16
+  }
+}, {
+  "date": "07-02-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "04-02-2021",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 34,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 6,
+    "spd": 15
+  }
+}, {
+  "date": "02-02-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "02-02-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36.5,
+    "fdp": 8,
+    "gruene": 17,
+    "linke": 7.5,
+    "spd": 15
+  }
+}, {
+  "date": "31-01-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "28-01-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "26-01-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 37,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "26-01-2021",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 8,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "24-01-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "21-01-2021",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 34,
+    "fdp": 7,
+    "gruene": 21,
+    "linke": 6,
+    "spd": 15
+  }
+}, {
+  "date": "18-01-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "18-01-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35,
+    "fdp": 9,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "17-01-2021",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "15-01-2021",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "12-01-2021",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 7.5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "09-01-2021",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "07-01-2021",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "05-01-2021",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 7.5,
+    "gruene": 18,
+    "linke": 7.5,
+    "spd": 15
+  }
+}, {
+  "date": "26-12-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 9,
+    "spd": 15
+  }
+}, {
+  "date": "22-12-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35,
+    "fdp": 8,
+    "gruene": 16.5,
+    "linke": 7.5,
+    "spd": 16
+  }
+}, {
+  "date": "19-12-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "19-12-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "15-12-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 7.5,
+    "spd": 17
+  }
+}, {
+  "date": "13-12-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "12-12-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "10-12-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "10-12-2020",
+  "source": "infra",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "08-12-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35.5,
+    "fdp": 8,
+    "gruene": 17.5,
+    "linke": 7.5,
+    "spd": 15.5
+  }
+}, {
+  "date": "06-12-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "05-12-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "03-12-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "30-11-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35.5,
+    "fdp": 7.5,
+    "gruene": 17.5,
+    "linke": 7,
+    "spd": 15.5
+  }
+}, {
+  "date": "29-11-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 34,
+    "fdp": 8,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "28-11-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 7,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 21,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "27-11-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "26-11-2020",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 21,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "24-11-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 17.5,
+    "linke": 7,
+    "spd": 15.5
+  }
+}, {
+  "date": "22-11-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "21-11-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "17-11-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36.5,
+    "fdp": 7,
+    "gruene": 17.5,
+    "linke": 7.5,
+    "spd": 15.5
+  }
+}, {
+  "date": "15-11-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "14-11-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "13-11-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "12-11-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "10-11-2020",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 34.5,
+    "fdp": 7,
+    "gruene": 17.5,
+    "linke": 7.5,
+    "spd": 15.5
+  }
+}, {
+  "date": "08-11-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "07-11-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "03-11-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 34.5,
+    "fdp": 6.5,
+    "gruene": 18,
+    "linke": 8.5,
+    "spd": 15.5
+  }
+}, {
+  "date": "01-11-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "31-10-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "27-10-2020",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 35.5,
+    "fdp": 6.5,
+    "gruene": 17.5,
+    "linke": 7.5,
+    "spd": 14.5
+  }
+}, {
+  "date": "24-10-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "24-10-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "23-10-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 38,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "20-10-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11.5,
+    "cdu_csu": 35,
+    "fdp": 7.5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 14.5
+  }
+}, {
+  "date": "17-10-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "17-10-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "15-10-2020",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "13-10-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35,
+    "fdp": 7,
+    "gruene": 18.5,
+    "linke": 8,
+    "spd": 14.5
+  }
+}, {
+  "date": "11-10-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 34,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "10-10-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "09-10-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "06-10-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11.5,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 18.5,
+    "linke": 7,
+    "spd": 14.5
+  }
+}, {
+  "date": "04-10-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "03-10-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "01-10-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 6,
+    "gruene": 21,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "29-09-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11.5,
+    "cdu_csu": 35,
+    "fdp": 6.5,
+    "gruene": 19,
+    "linke": 6.5,
+    "spd": 15.5
+  }
+}, {
+  "date": "27-09-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "26-09-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 35,
+    "fdp": 6,
+    "gruene": 21,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "22-09-2020",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 35,
+    "fdp": 6.5,
+    "gruene": 17.5,
+    "linke": 7.5,
+    "spd": 15.5
+  }
+}, {
+  "date": "19-09-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "19-09-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 22,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "17-09-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "17-09-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "15-09-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11.5,
+    "cdu_csu": 35.5,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 7.5,
+    "spd": 16
+  }
+}, {
+  "date": "13-09-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "12-09-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "08-09-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35,
+    "fdp": 6.5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "06-09-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "05-09-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "03-09-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "01-09-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36.5,
+    "fdp": 6,
+    "gruene": 17.5,
+    "linke": 7.5,
+    "spd": 16
+  }
+}, {
+  "date": "30-08-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "29-08-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "28-08-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 38,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "25-08-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 35.5,
+    "fdp": 6.5,
+    "gruene": 16,
+    "linke": 9,
+    "spd": 17
+  }
+}, {
+  "date": "23-08-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "22-08-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "20-08-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "18-08-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 18
+  }
+}, {
+  "date": "16-08-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 18
+  }
+}, {
+  "date": "15-08-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 6,
+    "spd": 16
+  }
+}, {
+  "date": "12-08-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 9,
+    "spd": 18
+  }
+}, {
+  "date": "11-08-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36.5,
+    "fdp": 6.5,
+    "gruene": 16,
+    "linke": 8.5,
+    "spd": 16
+  }
+}, {
+  "date": "09-08-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "08-08-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "06-08-2020",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "04-08-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36.5,
+    "fdp": 6.5,
+    "gruene": 16.5,
+    "linke": 8.5,
+    "spd": 15
+  }
+}, {
+  "date": "02-08-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "01-08-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "31-07-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 38,
+    "fdp": 5,
+    "gruene": 21,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "28-07-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36.5,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "26-07-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "25-07-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "23-07-2020",
+  "source": "infra",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "21-07-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36.5,
+    "fdp": 7.5,
+    "gruene": 16,
+    "linke": 7.5,
+    "spd": 16
+  }
+}, {
+  "date": "18-07-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "18-07-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "14-07-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 37,
+    "fdp": 7,
+    "gruene": 16.5,
+    "linke": 8.5,
+    "spd": 14.5
+  }
+}, {
+  "date": "12-07-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "11-07-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 14
+  }
+}, {
+  "date": "10-07-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "07-07-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 36,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "04-07-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "04-07-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "02-07-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "30-06-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10.5,
+    "cdu_csu": 36.5,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "27-06-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "27-06-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "26-06-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 40,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "25-06-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "22-06-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 36.5,
+    "fdp": 6,
+    "gruene": 18.5,
+    "linke": 8.5,
+    "spd": 15
+  }
+}, {
+  "date": "20-06-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "20-06-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "15-06-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 7,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "13-06-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 7,
+    "gruene": 17,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "13-06-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 40,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "12-06-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 4,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "09-06-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 6.5,
+    "gruene": 17.5,
+    "linke": 8.5,
+    "spd": 14
+  }
+}, {
+  "date": "06-06-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 38,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "06-06-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 8,
+    "cdu_csu": 40,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "04-06-2020",
+  "source": "infra",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "02-06-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38.5,
+    "fdp": 5.5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "30-05-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 40,
+    "fdp": 8,
+    "gruene": 15,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "30-05-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 40,
+    "fdp": 5,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "29-05-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 4,
+    "gruene": 19,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "25-05-2020",
+  "source": "insa",
+  "values": {
+    "afd": 9.5,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "23-05-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 7,
+    "gruene": 15,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "23-05-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 40,
+    "fdp": 5,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "18-05-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10.5,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 7.5,
+    "spd": 14
+  }
+}, {
+  "date": "16-05-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 39,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "16-05-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "15-05-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "14-05-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "12-05-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 37.5,
+    "fdp": 6.5,
+    "gruene": 16.5,
+    "linke": 7.5,
+    "spd": 14
+  }
+}, {
+  "date": "09-05-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 38,
+    "fdp": 5,
+    "gruene": 14,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "09-05-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 40,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "07-05-2020",
+  "source": "infra",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "04-05-2020",
+  "source": "insa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 37.5,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 7.5,
+    "spd": 15
+  }
+}, {
+  "date": "02-05-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 9,
+    "spd": 15
+  }
+}, {
+  "date": "02-05-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 6,
+    "gruene": 14,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "28-04-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10.5,
+    "cdu_csu": 38,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 7,
+    "spd": 15.5
+  }
+}, {
+  "date": "25-04-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 38,
+    "fdp": 9,
+    "gruene": 15,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "25-04-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 6,
+    "gruene": 15,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "24-04-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 39,
+    "fdp": 5,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "21-04-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10.5,
+    "cdu_csu": 38.5,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 7.5,
+    "spd": 15
+  }
+}, {
+  "date": "18-04-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 38,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 18
+  }
+}, {
+  "date": "18-04-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 39,
+    "fdp": 5,
+    "gruene": 15,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "16-04-2020",
+  "source": "infra",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 38,
+    "fdp": 5,
+    "gruene": 19,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "14-04-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10.5,
+    "cdu_csu": 37.5,
+    "fdp": 7,
+    "gruene": 16,
+    "linke": 7.5,
+    "spd": 16
+  }
+}, {
+  "date": "11-04-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 9,
+    "spd": 17
+  }
+}, {
+  "date": "11-04-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 37,
+    "fdp": 5,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "09-04-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 35,
+    "fdp": 5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 17
+  }
+}, {
+  "date": "06-04-2020",
+  "source": "insa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 38,
+    "fdp": 5.5,
+    "gruene": 18,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "04-04-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 33,
+    "fdp": 6,
+    "gruene": 18,
+    "linke": 9,
+    "spd": 18
+  }
+}, {
+  "date": "04-04-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 37,
+    "fdp": 6,
+    "gruene": 16,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "02-04-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 34,
+    "fdp": 5,
+    "gruene": 22,
+    "linke": 7,
+    "spd": 16
+  }
+}, {
+  "date": "31-03-2020",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 35,
+    "fdp": 6.5,
+    "gruene": 18,
+    "linke": 7.5,
+    "spd": 15
+  }
+}, {
+  "date": "28-03-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 32,
+    "fdp": 6,
+    "gruene": 19,
+    "linke": 9,
+    "spd": 18
+  }
+}, {
+  "date": "28-03-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "27-03-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 33,
+    "fdp": 6,
+    "gruene": 22,
+    "linke": 8,
+    "spd": 15
+  }
+}, {
+  "date": "26-03-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 36,
+    "fdp": 6,
+    "gruene": 17,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "23-03-2020",
+  "source": "insa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 33.5,
+    "fdp": 6.5,
+    "gruene": 20,
+    "linke": 7,
+    "spd": 15
+  }
+}, {
+  "date": "21-03-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 7,
+    "gruene": 21,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "21-03-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 9,
+    "cdu_csu": 32,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 9,
+    "spd": 15
+  }
+}, {
+  "date": "19-03-2020",
+  "source": "infra",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 30,
+    "fdp": 7,
+    "gruene": 23,
+    "linke": 9,
+    "spd": 14
+  }
+}, {
+  "date": "16-03-2020",
+  "source": "insa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28.5,
+    "fdp": 6.5,
+    "gruene": 23,
+    "linke": 9.5,
+    "spd": 14.5
+  }
+}, {
+  "date": "14-03-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 21,
+    "linke": 8,
+    "spd": 17
+  }
+}, {
+  "date": "14-03-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 29,
+    "fdp": 6,
+    "gruene": 22,
+    "linke": 10,
+    "spd": 14
+  }
+}, {
+  "date": "09-03-2020",
+  "source": "insa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 26.5,
+    "fdp": 6.5,
+    "gruene": 22,
+    "linke": 9.5,
+    "spd": 15.5
+  }
+}, {
+  "date": "08-03-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 24,
+    "fdp": 7,
+    "gruene": 22,
+    "linke": 9,
+    "spd": 17
+  }
+}, {
+  "date": "07-03-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 24,
+    "linke": 10,
+    "spd": 15
+  }
+}, {
+  "date": "06-03-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 26,
+    "fdp": 6,
+    "gruene": 23,
+    "linke": 8,
+    "spd": 16
+  }
+}, {
+  "date": "05-03-2020",
+  "source": "infra",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 23,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "03-03-2020",
+  "source": "insa",
+  "values": {
+    "afd": 13.5,
+    "cdu_csu": 26.5,
+    "fdp": 6,
+    "gruene": 23,
+    "linke": 10,
+    "spd": 16
+  }
+}, {
+  "date": "01-03-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 25,
+    "fdp": 6,
+    "gruene": 22,
+    "linke": 10,
+    "spd": 16
+  }
+}, {
+  "date": "29-02-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 5,
+    "gruene": 24,
+    "linke": 10,
+    "spd": 16
+  }
+}, {
+  "date": "25-02-2020",
+  "source": "insa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 26.5,
+    "fdp": 7,
+    "gruene": 22,
+    "linke": 10.5,
+    "spd": 14.5
+  }
+}, {
+  "date": "22-02-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 20,
+    "linke": 10,
+    "spd": 15
+  }
+}, {
+  "date": "22-02-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 24,
+    "linke": 10,
+    "spd": 14
+  }
+}, {
+  "date": "18-02-2020",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 26.5,
+    "fdp": 7.5,
+    "gruene": 20.5,
+    "linke": 9.5,
+    "spd": 14.5
+  }
+}, {
+  "date": "15-02-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 6,
+    "gruene": 20,
+    "linke": 10,
+    "spd": 15
+  }
+}, {
+  "date": "15-02-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 24,
+    "linke": 10,
+    "spd": 14
+  }
+}, {
+  "date": "13-02-2020",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 26,
+    "fdp": 7,
+    "gruene": 22,
+    "linke": 9,
+    "spd": 16
+  }
+}, {
+  "date": "11-02-2020",
+  "source": "insa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27.5,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 10,
+    "spd": 12.5
+  }
+}, {
+  "date": "09-02-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 20,
+    "linke": 9,
+    "spd": 15
+  }
+}, {
+  "date": "08-02-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 10,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 23,
+    "linke": 9,
+    "spd": 14
+  }
+}, {
+  "date": "07-02-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 6,
+    "gruene": 22,
+    "linke": 10,
+    "spd": 14
+  }
+}, {
+  "date": "06-02-2020",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 9,
+    "spd": 14
+  }
+}, {
+  "date": "03-02-2020",
+  "source": "insa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 8,
+    "spd": 13
+  }
+}, {
+  "date": "01-02-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 8,
+    "gruene": 21,
+    "linke": 9,
+    "spd": 15
+  }
+}, {
+  "date": "01-02-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 11,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 23,
+    "linke": 9,
+    "spd": 12
+  }
+}, {
+  "date": "27-01-2020",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 20.5,
+    "linke": 8.5,
+    "spd": 14
+  }
+}, {
+  "date": "25-01-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 10,
+    "spd": 14
+  }
+}, {
+  "date": "25-01-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 12,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 23,
+    "linke": 9,
+    "spd": 12
+  }
+}, {
+  "date": "23-01-2020",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 26,
+    "fdp": 8,
+    "gruene": 24,
+    "linke": 8,
+    "spd": 14
+  }
+}, {
+  "date": "21-01-2020",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27.5,
+    "fdp": 8.5,
+    "gruene": 21,
+    "linke": 9.5,
+    "spd": 13
+  }
+}, {
+  "date": "18-01-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 26,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 9,
+    "spd": 15
+  }
+}, {
+  "date": "18-01-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 8,
+    "gruene": 22,
+    "linke": 9,
+    "spd": 13
+  }
+}, {
+  "date": "16-01-2020",
+  "source": "fgw",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 7,
+    "gruene": 23,
+    "linke": 9,
+    "spd": 14
+  }
+}, {
+  "date": "14-01-2020",
+  "source": "insa",
+  "values": {
+    "afd": 15,
+    "cdu_csu": 27,
+    "fdp": 9.5,
+    "gruene": 21,
+    "linke": 9,
+    "spd": 12.5
+  }
+}, {
+  "date": "11-01-2020",
+  "source": "kantar",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 21,
+    "linke": 9,
+    "spd": 14
+  }
+}, {
+  "date": "11-01-2020",
+  "source": "forsa",
+  "values": {
+    "afd": 13,
+    "cdu_csu": 28,
+    "fdp": 9,
+    "gruene": 22,
+    "linke": 8,
+    "spd": 12
+  }
+}, {
+  "date": "09-01-2020",
+  "source": "infra",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 23,
+    "linke": 8,
+    "spd": 13
+  }
+}, {
+  "date": "06-01-2020",
+  "source": "insa",
+  "values": {
+    "afd": 14,
+    "cdu_csu": 27,
+    "fdp": 9,
+    "gruene": 23,
+    "linke": 8,
+    "spd": 13
+  }
+}];
+
+export default data;
